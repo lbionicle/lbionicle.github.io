@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat-Regular"), local("Montserrat Regular"),
+        url("../fonts/Montserrat/Montserrat-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat-SemiBold"), local("Montserrat SemiBold"),
+        url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat-Bold"), local("Montserrat Bold"),
+        url("../fonts/Montserrat/Montserrat-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: local("OpenSans-Regular"), local("OpenSans Regular"),
+        url("../fonts/OpenSans/OpenSans-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: local("OpenSans-SemiBold"), local("OpenSans SemiBold"),
+        url("../fonts/OpenSans/OpenSans-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: local("OpenSans-Bold"), local("OpenSans Bold"),
+        url("../fonts/OpenSans/OpenSans-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto-Regular"), local("Roboto Regular"),
+        url("../fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto-Bold"), local("Roboto Bold"),
+        url("../fonts/Roboto/Roboto-Bold.ttf");
+    font-weight: 700;
+}
