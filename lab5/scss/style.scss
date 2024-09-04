@@ -1,0 +1,54 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background: rgb(52, 206, 142);
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    background: rgba(16, 233, 215, 0.178);
+    flex: 0 1 calc(33.333% - 40px);
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+
+    &__wrapper1 {
+        flex: 0 1 33.333%;
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        order: 2;
+    }
+
+    &__wrapper2 {
+        flex: 0 1 66.666%;
+        display: flex;
+        flex-flow: row wrap;
+
+        article {
+            flex: 0 1 calc(50% - 40px);
+        }
+    }
+}
